@@ -10,6 +10,6 @@ function insert_Row() {
     // Dynamically insert cells based on column count
     for (let i = 0; i < columnCount; i++) {
         let cell = newRow.insertCell(i);
-        cell.textContent = `New Cell ${i + 1}`; // Dynamic cell naming
+        cell.textContent = `New Cell${i + 1}`;
     }
 }
